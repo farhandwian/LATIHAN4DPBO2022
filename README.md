@@ -1,41 +1,21 @@
 # LATIHAN4DPBO2022
 
->Saya Hilman Fauzi Herdiana (2000879) mengerjakan tugas LATIHAN4DPBO2022 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
-
-Repository ini dibuat untuk memenuhi tugas Latihan 4 praktikum mata kuliah Desain dan Pemrograman Berorientasi Objek (DPBO).
+>Saya Farhan Dwian Saputra(2002969) mengerjakan tugas LATIHAN4DPBO2022 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ### Detail file
 <p align="center">
-  <img src="https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Design.png" alt="Design"/>
+  ![model](https://user-images.githubusercontent.com/68465767/156912960-b3e6a3ee-1c1e-41f2-abe7-908f77298c2c.jpg) 
 </p>
 
-- Ada 6 class (Person, Job, Driver, Vehicle, Ship, Airplane) dan 1 Main.
-- Class Person dan Job adalah parent dari class Driver. Karena Driver merupakan sebuah manusia (Person) dan juga sebuah pekerjaan (Job). Oleh karena itu saya menggunakan Multiple Inheritance
-- Class Vehicle merupakan parent dari class Ship dan Airplane. Karena Ship dan Airplane merupakan sebuah transportasi/kendaraan (Vehicle). Oleh karena itu saya menggunakan Hierarchical Inheritance.
+  penjelasan design
+- Class driver bisa diturunkan dari class person dan job,sehingga class person dan job merupakan parent dari class driver.hal ini merupakan penerapan Multiple Inheritance
+- Class Ship dan Airplane termasuk Class vehicle,jadi Class vehicle merupakan parent dari Class shid dan airplane.hal merupakan penerapan Hierarchical Inheritance.
 
 ### Screenshot hasil program setelah dijalankan
-1. Person
-
-  ![Person](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/person.png)
-
-2. Job
-
-  ![Job](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/job.png)
-
-3. Driver
-
-  ![Driver](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/driver.png)
-
-4. Ship
-
-  ![Ship](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/ship.png)
-
-5. Airplane
-
-  ![Airplane](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/airplane.png)
-
-6. Vehicle
-
-  ![Vehicle_Ship](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/shipVehicle.png)
-  
-  ![Vehicle_Airplane](https://github.com/hlmnn/LATIHAN4DPBO2022/blob/master/Screenshot/airplaneVehicle.png)
+1.driver data
+<img width="162" alt="1" src="https://user-images.githubusercontent.com/68465767/156912963-24ef8959-3ed8-4bfc-b1ca-c1fa48685ccd.png">
+<img width="164" alt="2" src="https://user-images.githubusercontent.com/68465767/156912965-798c0f26-2c03-4f32-8dce-e23510efacee.png">
+2.ship data
+<img width="214" alt="3" src="https://user-images.githubusercontent.com/68465767/156912968-795fc8dd-9777-4ea8-944d-4b1402c62db5.png">
+3.airplane data
+<img width="200" alt="4" src="https://user-images.githubusercontent.com/68465767/156912969-833fcce5-c583-4826-ba39-614b8d8f5e94.png">
