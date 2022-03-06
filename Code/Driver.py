@@ -14,7 +14,7 @@ class Driver(Job, Person):
         self.__activeUntil = 0
         self.__vehicleType = ""
 
-    # setter
+    # setter getter
     def setLicenseID(self, licenseId):
         self.__licenseID = licenseId
     def setActiveUntil(self, activeUntil):
@@ -22,7 +22,6 @@ class Driver(Job, Person):
     def setVehicleType(self, vehicleType):
         self.__vehicleType = vehicleType
         
-    # getter 
     def getLicenseID(self):
         return self.__licenseID
     def getActiveUntil(self):
@@ -38,5 +37,4 @@ class Driver(Job, Person):
         print("Active Untill : " + self.getActiveUntil())
         print("Vehicle Type  : " + self.getVehicleType())
         self.sleep("Sleep")
-        print("----------------------------------")
         print("__________________________________")

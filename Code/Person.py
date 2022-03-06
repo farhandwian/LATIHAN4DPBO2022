@@ -19,7 +19,6 @@ class Person:
     def setGender(self, gender):
         self.__gender = gender
     
-    # getter
     def getNik(self):
         return self.__nik
     def getName(self):
@@ -30,9 +29,9 @@ class Person:
     # Sleep method
     def sleep(self, sleepMode):
         if sleepMode == "Sleep":
-            print(f"{self.getName()} is sleeping now.")
+            print(f"{self.getName()} lagi tidur.")
         else:
-            print(f"{self.getName()} is not sleeping now.")
+            print(f"{self.getName()} terjaga(tidak sedang tidur)")
     
     # print method
     def printPerson(self):

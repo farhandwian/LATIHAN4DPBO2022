@@ -11,15 +11,14 @@ class Job:
         self.__companyName = ""
         self.__position = ""
     
-    # setter
+    # setter getter
     def setNip(self, nip):
         self.__nip = nip
     def setCompanyName(self, companyName):
         self.__companyName = companyName
     def setposition(self,position):
         self.__position = position
-
-    # getter 
+ 
     def getNip(self):
         return self.__nip
     def getCompanyName(self):

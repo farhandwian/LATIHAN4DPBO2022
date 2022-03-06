@@ -13,7 +13,7 @@ class Airplane(Vehicle):
         self.__type = ""
         self.__wingsLength = 0
     
-    # setter
+    # setter getter
     def setAge(self, age):
         self.__age = age
     def setType(self, type):
@@ -21,7 +21,6 @@ class Airplane(Vehicle):
     def setWingsLength(self, wingsLength):
         self.__wingsLength = wingsLength
     
-    # getter 
     def getAge(self):
         return self.__age
     def getType(self):

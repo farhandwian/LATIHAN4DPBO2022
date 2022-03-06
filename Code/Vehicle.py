@@ -29,9 +29,9 @@ class Vehicle:
 
     def move(self, moveMode):
         if moveMode == "Move":
-            print(self.getName() + " is moving now.")
+            print(self.getName() + "sedang bergekan.")
         else:
-            print(self.getName() + " is not moving now.")
+            print(self.getName() + "tidak sedang bergerak.")
     
     # print method
     def printVehicle(self):
