@@ -12,10 +12,10 @@
 - Class Ship dan Airplane termasuk Class vehicle,jadi Class vehicle merupakan parent dari Class shid dan airplane.hal merupakan penerapan Hierarchical Inheritance.
 
 ### Screenshot hasil program setelah dijalankan
-1.Driver data
+1. Driver
 ![Driver](https://user-images.githubusercontent.com/68465767/156912963-24ef8959-3ed8-4bfc-b1ca-c1fa48685ccd.png)
 ![Driver](https://user-images.githubusercontent.com/68465767/156912965-798c0f26-2c03-4f32-8dce-e23510efacee.png)
-2.Ship data
+2.Ship
 ![Ship](https://user-images.githubusercontent.com/68465767/156912968-795fc8dd-9777-4ea8-944d-4b1402c62db5.png)
-3.Airplane data
+3.Airplane
 ![Airplane](https://user-images.githubusercontent.com/68465767/156912969-833fcce5-c583-4826-ba39-614b8d8f5e94.png)
